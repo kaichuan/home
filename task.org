@@ -1,0 +1,18 @@
+* TODO sync task.org with github
+
+* TODO learn emacs org mode    :home:
+** TODO customize orgmode color
+** TODO lean from video
+   http://orgmode.org/worg/org-tutorials/
+** TODO quick insert next entry
+
+
+* small convient trick
+** TODO startup xterm with dwm
+** 
+
+
+
+
+
+   
