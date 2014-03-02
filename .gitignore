@@ -1,9 +1,18 @@
-*
+/*
+#meta
 !.gitignore
+
+#vim
 !.vim/
 !.vimrc
+
+#zsh
 !.zshrc
+
+#bash
 !.bash_profile
-!.emacs.d/
+
+#emacs
+!/.emacs.d/
 
 
