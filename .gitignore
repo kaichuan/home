@@ -1,6 +1,7 @@
 /*
-#meta
+#git
 !.gitignore
+!.gitconfig
 
 #vim
 !.vim/
