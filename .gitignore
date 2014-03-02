@@ -15,5 +15,6 @@
 
 #emacs
 !/.emacs.d/
-
-
+/.emacs.d/auto-saving-list/
+#Xorg
+!.Xresources

@@ -1,0 +1,73 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sun Mar  2 22:50:57 2014
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("err"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/workspace/xdr/regServer/config/controllers.js" "~/workspace/xdr/regServer/config/routes.js" "~/workspace/xdr/regServer/config/adapters.js" "~/workspace/xdr/regServer/api/controllers/MainController.js" "~/.emacs.d/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/kc/workspace/xdr/regServer/config/controllers.js"
+  "controllers.js"
+  'js-mode
+  '(linum-mode)
+  4105
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/kc/workspace/xdr/regServer/config/routes.js"
+  "routes.js"
+  'js-mode
+  '(linum-mode)
+  4990
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/kc/workspace/xdr/regServer/api/controllers/MainController.js"
+  "MainController.js"
+  'js-mode
+  '(linum-mode)
+  1253
+  '(1173 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/kc/workspace/xdr/regServer/config/adapters.js"
+  "adapters.js"
+  'js-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/kc/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(linum-mode)
+  354
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

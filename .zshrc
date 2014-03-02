@@ -24,8 +24,14 @@ alias ll='ls -l --color'
 alias la='ls -al --color'
 alias e='emacs -nw'
 alias cd..='cd ..'
+alias j=jobs
+alias p=pushd
+alais f=fg
+
+
 
 GRADLE_HOME=~/tools/gradle-1.6
 M2_HOME=~/tools/apache-maven-3.2.1
+xdr=~/workspace/xdr/xdrRegServer/
 export PATH=$PATH:~/.gem/ruby/2.0.0/bin:$GRADLE_HOME/bin:$M2_HOME/bin:/usr/lib/python3.3/site-packages/django/bin/
 
