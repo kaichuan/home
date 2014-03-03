@@ -1,10 +1,11 @@
 "default .vimrc file by zhengkaichuan
 
 "common settings
-set nu
+"set nu
 set backspace=indent,eol,start
 set showcmd
 set modeline
+set nowrap
 autocmd FileType c,cpp set cindent
 
 
@@ -44,6 +45,7 @@ syntax on
 "set t_Co=256
 set background=dark
 color molokai
+"set cc=80
 
 "indent
 filetype indent plugin on
@@ -74,8 +76,13 @@ nmap ;w :w<CR>
 
 "quick quit
 nmap ;q :q<CR>
+
+"python exec
+nmap <F5> :!python %<CR>
 """"""""""""
 """plugin"""
 """"""""""""
 "autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
+au BufRead,BufNewFile *.md set filetype=markdown
+"

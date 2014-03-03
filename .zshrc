@@ -18,17 +18,33 @@ autoload -U colors && colors
 PS1="[%?]%{$fg[green]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[red]%}%~ %{$reset_color%}%% "
 
 # End of lines added by compinstall
-alias ls='ls --color'
+
 alias grep='grep --color=auto'
-alias ll='ls -l --color'
-alias la='ls -al --color'
+
+
 alias e='emacs -nw'
 alias cd..='cd ..'
 alias j=jobs
 alias p=pushd
-alais f=fg
+alias f=fg
 
-
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+    alias ls='ls --color'
+    alias ll='ls -l --color'
+    alias la='ls -al --color'
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    alias ls='ls -G'
+    alias ll='ls -lG'
+    alias la='ls -alG'
+elif [[ "$OSTYPE" == "cygwin" ]]; then
+        # ...
+elif [[ "$OSTYPE" == "win32" ]]; then
+        # ...
+elif [[ "$OSTYPE" == "freebsd"* ]]; then
+        # ...
+else
+        # Unknown.
+fi
 
 GRADLE_HOME=~/tools/gradle-1.6
 M2_HOME=~/tools/apache-maven-3.2.1

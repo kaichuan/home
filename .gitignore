@@ -16,5 +16,6 @@
 #emacs
 !/.emacs.d/
 /.emacs.d/auto-saving-list/
+/.emacs.d/.emacs.desktop.lock
 #Xorg
 !.Xresources
